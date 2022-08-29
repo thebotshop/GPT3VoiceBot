@@ -7,7 +7,7 @@ from api_key import API_KEY
 import Main
 import streamlit as st
 
-st.set_page_config(page_title="GPT-3 Boilerplate", page_icon=":shark:", layout="wide")
+st.set_page_config(page_title="GPT3VoiceBot ", page_icon=":shark:", layout="wide")
 
 Main.app()
 Footer
