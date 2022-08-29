@@ -1,10 +1,12 @@
+
+import os
 import openai
 import pyttsx3
 import speech_recognition as sr
 from api_key import API_KEY
 
 
-openai.api_key = API_KEY
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 engine = pyttsx3.init()
 
