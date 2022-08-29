@@ -5,3 +5,5 @@ import speech_recognition
 import pyttsx3
 import speech_recognition as sr
 from api_key import API_KEY
+import portaudio
+import pyaudio
