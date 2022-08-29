@@ -1,3 +1,4 @@
+import os
 import openai
 import pyttsx3
-import speech_recognition 
+import speech_recognition
