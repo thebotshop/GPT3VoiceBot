@@ -2,3 +2,6 @@ import os
 openai==0.22.0
 streamlit==1.11.0
 import speech_recognition
+import pyttsx3
+import speech_recognition as sr
+from api_key import API_KEY
