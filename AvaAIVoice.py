@@ -4,6 +4,13 @@ import openai
 import pyttsx3
 import speech_recognition as sr
 from api_key import API_KEY
+import Main
+import streamlit as st
+
+st.set_page_config(page_title="GPT-3 Boilerplate", page_icon=":shark:", layout="wide")
+
+Main.app()
+Footer
 
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
