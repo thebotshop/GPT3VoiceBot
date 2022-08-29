@@ -1,4 +1,4 @@
 import os
-import openai
-import pyttsx3
+openai==0.22.0
+streamlit==1.11.0
 import speech_recognition
