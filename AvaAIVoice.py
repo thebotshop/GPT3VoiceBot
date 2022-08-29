@@ -2,7 +2,7 @@
 import os
 import openai
 import pyttsx3
-import speech_recognition as sr
+import SpeechRecognition
 from api_key import API_KEY
 import streamlit as st
 
